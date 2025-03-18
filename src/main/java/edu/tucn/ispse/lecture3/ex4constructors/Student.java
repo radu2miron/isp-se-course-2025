@@ -8,7 +8,7 @@ public class Student extends Person {
     private int average;
 
     public Student() {
-        super("a");
+//        super("a");
         System.out.println("Student constructor called"); // 3.
     }
 }
