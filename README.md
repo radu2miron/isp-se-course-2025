@@ -5,5 +5,5 @@ Contains additional code examples for the ISP/SE course
 
 after each lecture do:
 - **cd** inside local directory **isp-se-course-2025**
-- **git pull --rebase **
+- **git pull --rebase**
   
