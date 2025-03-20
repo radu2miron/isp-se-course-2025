@@ -28,5 +28,7 @@ class AuthenticationModuleTest {
                 "the client user instance with matching credentials should be returned");
         Assertions.assertNull(authenticationModule.checkCredentials("client2", "pwdABC"),
                 "null should be returned on invalid client credentials");
+        Assertions.assertNull(authenticationModule.checkCredentials("", ""),
+                "null should be returned on invalid client credentials");
     }
 }
