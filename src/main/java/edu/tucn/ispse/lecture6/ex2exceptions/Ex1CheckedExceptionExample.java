@@ -14,14 +14,16 @@ public class Ex1CheckedExceptionExample {
     public static void main(String[] args) throws IOException {
         String fileName = UUID.randomUUID().toString(); // obviously, this file doesn't exist
 
-//        try {
+        try {
             Files.lines(Paths.get(fileName)) // <=> Files.readAllLines(Paths.get(fileName)).stream()
                     .forEach(l -> System.out.println(l));
-//        } catch (IOException e) {
-//            // 'catch' lets you decide what to do if an error occurs
-//            // for instance we can try reading a file given by the user
-//            System.err.println(fileName + " doesn't exist!"); // or: e.printStackTrace();
-////            e.printStackTrace();
-//        }
+        } catch (IOException e) {
+            // 'catch' lets you decide what to do if an error occurs
+            // for instance we can try reading a file given by the user
+            System.err.println(fileName + " doesn't exist!"); // or: e.printStackTrace();
+//            e.printStackTrace();
+        }
+
+        System.out.println("new instruction");
     }
 }

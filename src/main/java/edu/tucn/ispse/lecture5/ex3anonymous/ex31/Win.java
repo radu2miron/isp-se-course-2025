@@ -21,15 +21,15 @@ public class Win extends JFrame {
 //        button.addActionListener(clickHandler);
 
         // ActionListener as an anonymous class
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent actionEvent) {
-                new Win();
-            }
-        });
+//        button.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent actionEvent) {
+//                new Win();
+//            }
+//        });
 
         // ActionListener as a lambda expression
-//        button.addActionListener(e -> new Win());
+        button.addActionListener(e -> new Win());
 
         this.add(button);
         this.setVisible(true);

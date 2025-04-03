@@ -22,9 +22,9 @@ public class ArrayEx {
         //somewhere in the code
 //        array[5] = 22;
 
-        Arrays.stream(array)
-                .filter(i -> i > 2)
-                .map(i -> i * 2)
-                .forEach(el -> System.out.println(el));
+//        Arrays.stream(array)
+//                .filter(i -> i > 2)
+//                .map(i -> i * 2)
+//                .forEach(el -> System.out.println(el));
     }
 }

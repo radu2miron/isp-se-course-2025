@@ -6,7 +6,7 @@ import java.awt.event.ActionListener;
 /**
  * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
-public class ButtonClickHandler implements ActionListener {
+public class  ButtonClickHandler implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         new Win();

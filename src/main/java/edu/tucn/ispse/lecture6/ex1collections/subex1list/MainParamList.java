@@ -1,9 +1,6 @@
 package edu.tucn.ispse.lecture6.ex1collections.subex1list;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 
 /**
  * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
@@ -76,13 +73,7 @@ public class MainParamList {
         System.out.println("sorted persons list by id number:");
         persons.forEach(p -> System.out.println(p.toString()));
 
-        Collections.sort(persons, (o1, o2) -> {
-            int r = o1.getFirstName().compareTo(o2.getFirstName());
-            if (r == 0) {
-                r = o1.getIdNumber().compareTo(o2.getIdNumber());
-            }
-            return r;
-        });
+        Collections.sort(persons, Comparator.comparing(Person::getFirstName).thenComparing(Person::getIdNumber));
         System.out.println("sorted persons list by first name:");
         persons.forEach(p -> System.out.println(p.toString()));
     }
