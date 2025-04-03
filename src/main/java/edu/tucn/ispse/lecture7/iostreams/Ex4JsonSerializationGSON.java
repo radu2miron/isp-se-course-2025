@@ -49,21 +49,21 @@ public class Ex4JsonSerializationGSON {
 
     private static class Controller {
         private int id;
-        private String vedor;
+        private String vendor;
         private String model;
 
-        public Controller(int id, String vedor, String model) {
-            this.vedor = vedor;
+        public Controller(int id, String vendor, String model) {
+            this.vendor = vendor;
             this.model = model;
             this.id = id;
         }
 
-        public String getVedor() {
-            return vedor;
+        public String getVendor() {
+            return vendor;
         }
 
-        public void setVedor(String vedor) {
-            this.vedor = vedor;
+        public void setVendor(String vendor) {
+            this.vendor = vendor;
         }
 
         public String getModel() {
@@ -86,7 +86,7 @@ public class Ex4JsonSerializationGSON {
         public String toString() {
             return "Controller{" +
                     "id=" + id +
-                    ", vedor='" + vedor + '\'' +
+                    ", vedor='" + vendor + '\'' +
                     ", model='" + model + '\'' +
                     '}';
         }
