@@ -9,8 +9,7 @@ import java.io.Writer;
 import java.util.Scanner;
 
 /**
- * @author Radu Miron
- * @version 1
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class Ex4JsonSerializationGSON {
     public static void main(String[] args) throws IOException {

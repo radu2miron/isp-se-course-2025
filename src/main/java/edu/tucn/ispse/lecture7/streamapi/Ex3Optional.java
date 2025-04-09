@@ -4,8 +4,7 @@ import java.util.List;
 import java.util.Optional;
 
 /**
- * @author Radu Miron
- * @version 1
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class Ex3Optional {
     public static void main(String[] args) {

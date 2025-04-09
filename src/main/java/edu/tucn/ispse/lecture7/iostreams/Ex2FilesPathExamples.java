@@ -6,8 +6,7 @@ import java.nio.file.*;
 import java.util.List;
 
 /**
- * @author radumiron
- * @version 1
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class Ex2FilesPathExamples {
     public static void main(String[] args) throws IOException {

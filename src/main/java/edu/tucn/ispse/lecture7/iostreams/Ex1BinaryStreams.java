@@ -5,8 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 /**
- * @author radumiron
- * @version 1
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class Ex1BinaryStreams {
     public static void main(String[] args) {

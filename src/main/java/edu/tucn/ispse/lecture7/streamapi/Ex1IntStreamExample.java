@@ -3,8 +3,7 @@ package edu.tucn.ispse.lecture7.streamapi;
 import java.util.Arrays;
 
 /**
- * @author Radu Miron
- * @version 1
+ * @author <a href="mailto:radu.miro@aut.utcluj.ro">Radu Miron</a>
  */
 public class Ex1IntStreamExample {
     public static void main(String[] args) {
