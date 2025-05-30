@@ -1,0 +1,18 @@
+TODO:
+
+1. Install tesseract:
+https://tesseract-ocr.github.io/tessdoc/Installation.html
+
+
+2. Create DB and table
+Open MySQL WorkBench and run the following:
+
+CREATE DATABASE IF NOT EXISTS ocr;
+
+USE ocr;
+
+CREATE TABLE IF NOT EXISTS processed_files(
+	id INT AUTO_INCREMENT PRIMARY KEY,
+	file_path VARCHAR(255),
+	text VARCHAR(500));
+
